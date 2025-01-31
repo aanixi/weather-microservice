@@ -1,3 +1,15 @@
+"""
+Weather Microservice
+Author: Anna Berko-Boateng and ChatGPT 4o
+Date: 31.1.2025
+Description: This FastAPI microservice fetches weather data from OpenWeatherMap.
+
+Most of the code was produced by ChatGPT and it has been reviewed, modified and tested by Anna.
+Instructions:
+- Run 'uvicorn main:app --host 0.0.0.0 --port 8080 --reload'
+- Test in browser at http://localhost:8080/docs
+"""
+
 from fastapi import FastAPI
 import requests
 
